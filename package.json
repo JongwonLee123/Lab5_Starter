@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "live-server",
+    "dev": "vite",
+    "build": "webpack"
+  },
+  "type": "module",
+  "jest": {
+    "transform": {},
+    "verbose": true
+  }
+}
