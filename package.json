@@ -4,10 +4,7 @@
     "live-server": "^1.2.2"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "start": "live-server",
-    "dev": "vite",
-    "build": "webpack"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "type": "module",
   "jest": {
